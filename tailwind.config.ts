@@ -18,6 +18,9 @@ const config: Config = {
         graphBorder: "#1B2F49",
         graphBack: "#F5F3EC",
       },
+      screens: {
+        xs: "320px",
+      },
     },
   },
   plugins: [],

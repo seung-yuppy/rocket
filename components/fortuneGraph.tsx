@@ -1,7 +1,7 @@
 const FortuneGraph = () => {
   return (
-    <div className="p-3 bg-graphBack">
-      <div className="p-3 border-4 border-graphBorder text-center flex flex-col gap-2">
+    <div className="p-3 bg-graphBack xs:p-1">
+      <div className="p-3 border-4 border-graphBorder text-center flex flex-col gap-2 xs:p-1">
         <h2 className="text-base font-medium">김로켓님의 사주</h2>
         <h1 className="text-xl font-bold">1980년 8월27일 08:10</h1>
         <table className="table-fixed border-black text-center text-sm w-full">
@@ -22,19 +22,19 @@ const FortuneGraph = () => {
               </td>
               <td className="border-r-2 border-b-2 border-black bg-white p-2">
                 <h2 className="font-bold text-lg">傷官</h2>
-                <h2 className="text-sm">(상관)</h2>
+                <h2 className="text-sm xs:text-xs">(상관)</h2>
               </td>
               <td className="border-r-2 border-b-2 border-black bg-white p-2">
                 <h2 className="font-bold text-lg">比肩</h2>
-                <h2 className="text-sm">(비견)</h2>
+                <h2 className="text-sm xs:text-xs">(비견)</h2>
               </td>
               <td className="border-r-2 border-b-2 border-black bg-white p-2">
                 <h2 className="font-bold text-lg">傷官</h2>
-                <h2 className="text-sm">(상관)</h2>
+                <h2 className="text-sm xs:text-xs">(상관)</h2>
               </td>
               <td className="border-r-2 border-b-2 border-black bg-white p-2">
                 <h2 className="font-bold text-lg">傷官</h2>
-                <h2 className="text-sm">(상관)</h2>
+                <h2 className="text-sm xs:text-xs">(상관)</h2>
               </td>
             </tr>
             <tr>
@@ -112,19 +112,19 @@ const FortuneGraph = () => {
               </td>
               <td className="border-r-2 border-b-2 border-black bg-white p-2">
                 <h2 className="font-bold text-lg">比肩</h2>
-                <h2 className="text-sm">(비견)</h2>
+                <h2 className="text-sm xs:text-xs">(비견)</h2>
               </td>
               <td className="border-r-2 border-b-2 border-black bg-white p-2">
                 <h2 className="font-bold text-lg">劫財</h2>
-                <h2 className="text-sm">(겁재)</h2>
+                <h2 className="text-sm xs:text-xs">(겁재)</h2>
               </td>
               <td className="border-r-2 border-b-2 border-black bg-white p-2">
                 <h2 className="font-bold text-lg">食神</h2>
-                <h2 className="text-sm">(식신)</h2>
+                <h2 className="text-sm xs:text-xs">(식신)</h2>
               </td>
               <td className="border-r-2 border-b-2 border-black bg-white p-2">
                 <h2 className="font-bold text-lg">偏財</h2>
-                <h2 className="text-sm">(편재)</h2>
+                <h2 className="text-sm xs:text-xs">(편재)</h2>
               </td>
             </tr>
             <tr>
@@ -134,19 +134,19 @@ const FortuneGraph = () => {
               </td>
               <td className="border-r-2 border-b-2 border-black bg-white p-2">
                 <h2 className="font-bold text-lg">死</h2>
-                <h2 className="text-sm">(사)</h2>
+                <h2 className="text-sm xs:text-xs">(사)</h2>
               </td>
               <td className="border-r-2 border-b-2 border-black bg-white p-2">
                 <h2 className="font-bold text-lg">帝旺</h2>
-                <h2 className="text-sm">(제왕)</h2>
+                <h2 className="text-sm xs:text-xs">(제왕)</h2>
               </td>
               <td className="border-r-2 border-b-2 border-black bg-white p-2">
                 <h2 className="font-bold text-lg">胎</h2>
-                <h2 className="text-sm">(태)</h2>
+                <h2 className="text-sm xs:text-xs">(태)</h2>
               </td>
               <td className="border-r-2 border-b-2 border-black bg-white p-2">
                 <h2 className="font-bold text-lg">長生</h2>
-                <h2 className="text-sm">(장생)</h2>
+                <h2 className="text-sm xs:text-xs">(장생)</h2>
               </td>
             </tr>
             <tr>
@@ -156,19 +156,19 @@ const FortuneGraph = () => {
               </td>
               <td className="border-r-2 border-b-2 border-black bg-white p-2">
                 <h2 className="font-bold text-lg">劫殺</h2>
-                <h2 className="text-sm">(겁살)</h2>
+                <h2 className="text-sm xs:text-xs">(겁살)</h2>
               </td>
               <td className="border-r-2 border-b-2 border-black bg-white p-2">
                 <h2 className="font-bold text-lg">地殺</h2>
-                <h2 className="text-sm">(지살)</h2>
+                <h2 className="text-sm xs:text-xs">(지살)</h2>
               </td>
               <td className="border-r-2 border-b-2 border-black bg-white p-2">
                 <h2 className="font-bold text-lg">驛馬殺</h2>
-                <h2 className="text-sm">(역마살)</h2>
+                <h2 className="text-sm xs:text-xs">(역마살)</h2>
               </td>
               <td className="border-r-2 border-b-2 border-black bg-white p-2">
                 <h2 className="font-bold text-lg">將星殺</h2>
-                <h2 className="text-sm">(장성살)</h2>
+                <h2 className="text-sm xs:text-xs">(장성살)</h2>
               </td>
             </tr>
             <tr>
@@ -177,10 +177,10 @@ const FortuneGraph = () => {
                 <h2 className="text-sm">(귀인)</h2>
               </td>
               <td className="border-r-2 border-b-2 border-black bg-white p-2">
-                <h2 className="font-bold text-sm">(없음)</h2>
+                <h2 className="font-bold text-sm xs:text-xs">(없음)</h2>
               </td>
               <td className="border-r-2 border-b-2 border-black bg-white p-2">
-                <h2 className="font-bold text-sm">(없음)</h2>
+                <h2 className="font-bold text-sm xs:text-xs">(없음)</h2>
               </td>
               <td className="border-r-2 border-b-2 border-black bg-white p-2">
                 <br />
