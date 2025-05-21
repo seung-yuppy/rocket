@@ -9,8 +9,14 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        brown: {
+          200: "#D1C3AB",
+          300: "#B19C83",
+          400: "#937C5F",
+          500: "#5B5247",
+        },
+        graphBorder: "#1B2F49",
+        graphBack: "#F5F3EC",
       },
     },
   },

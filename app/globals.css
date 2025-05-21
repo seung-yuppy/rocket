@@ -2,7 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+@layer components {
+  .bg-gradient-custom {
+    @apply bg-no-repeat bg-cover max-w-md pt-20;
+    background-image: linear-gradient(
+      to bottom,
+      black 1%,
+      #937c5f 35%,
+      #d1c3ab 100%
+    );
+  }
+}
+
+/* :root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -24,4 +36,4 @@ body {
   .text-balance {
     text-wrap: balance;
   }
-}
+} */
