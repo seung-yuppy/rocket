@@ -2,7 +2,7 @@ import Image from "next/image";
 import titleLayer from "@/images/title_layer.png";
 import mainGirl1 from "@/images/main_girl1.png";
 import mainBrush from "@/images/main_brush.jpg";
-import mainBrushSound from "@/images/main_brushSound.png";
+import mainBrushSound from "@/images/main_sound.png";
 import mainGirl2 from "@/images/main_girl2.png";
 import Speech from "@/components/speech";
 import FortuneGraph from "@/components/fortuneGraph";
