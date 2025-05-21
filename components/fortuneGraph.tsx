@@ -3,7 +3,7 @@ const FortuneGraph = () => {
     <div className="p-3 bg-graphBack">
       <div className="p-3 border-4 border-graphBorder text-center flex flex-col gap-2">
         <h2 className="text-base font-medium">김로켓님의 사주</h2>
-        <h1 className="text-xl font-bold">1980년 8월 27일 08:10</h1>
+        <h1 className="text-xl font-bold">1980년 8월27일 08:10</h1>
         <table className="table-fixed border-black text-center text-sm w-full">
           <thead>
             <tr>

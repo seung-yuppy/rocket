@@ -12,6 +12,32 @@
       #d1c3ab 100%
     );
   }
+
+  .bg-main-girl {
+    @apply w-80 ml-24 transform scale-x-[-1];
+    mask-image: linear-gradient(to bottom, black 40%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to bottom, black 40%, transparent 100%);
+    mask-size: 100% 100%;
+    mask-repeat: no-repeat;
+  }
+
+  .arrow-bottom {
+    @apply absolute z-10;
+    left: 20%;
+    bottom: -20px;
+    border-top: 45px solid white;
+    border-right: 15px solid transparent;
+    rotate: -40deg;
+  }
+
+  .arrow-top {
+    @apply absolute z-50;
+    left: 20%;
+    top: -165px;
+    border-top: 45px solid transparent;
+    border-right: 15px solid white;
+    rotate: 10deg;
+  }
 }
 
 /* :root {

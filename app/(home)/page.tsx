@@ -17,20 +17,10 @@ export default function Home() {
           <h1 className="text-xl text-white">나의 사주 팔자</h1>
         </div>
         <div className="mb-10">
-          <Image
-            src={mainGirl1}
-            alt="no image"
-            className="w-80 ml-24 transform scale-x-[-1]"
-            style={{
-              maskImage: 'linear-gradient(to bottom, black 40%, transparent 100%)',
-              WebkitMaskImage: 'linear-gradient(to bottom, black 40%, transparent 100%)',
-              maskSize: '100% 100%',
-              maskRepeat: 'no-repeat',
-            }}
-          />
+          <Image src={mainGirl1} alt="no image" className="bg-main-girl" />
           <Speech text={"이제 본격적으로 OO님의 사주팔자를 분석해볼 차례네요."} />
         </div>
-        <div className="relative mb-64">
+        <div className="relative mb-96">
           <Image src={mainBrushSound} alt="no image" className="absolute z-10 ml-52 mt-5" />
           <Image src={mainBrush} alt="no image" className="absolute ml-64" />
         </div>
