@@ -23,7 +23,7 @@
 
   .arrow-bottom {
     @apply absolute z-10;
-    left: 20%;
+    left: 30%;
     bottom: -20px;
     border-top: 45px solid white;
     border-right: 15px solid transparent;
@@ -32,7 +32,7 @@
 
   .arrow-top {
     @apply absolute z-10;
-    left: 20%;
+    left: 30%;
     top: -165px;
     border-top: 45px solid transparent;
     border-right: 15px solid white;
