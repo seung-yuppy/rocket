@@ -33,7 +33,7 @@
   .arrow-top {
     @apply absolute z-50;
     left: 20%;
-    top: -165px;
+    top: -160px;
     border-top: 45px solid transparent;
     border-right: 15px solid white;
     rotate: 10deg;
