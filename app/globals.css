@@ -31,11 +31,11 @@
   }
 
   .arrow-top {
-    @apply absolute z-50;
+    @apply absolute z-10;
     left: 20%;
-    top: -160px;
-    border-top: 45px solid transparent;
-    border-right: 15px solid white;
+    top: -150px;
+    border-top: 40px solid transparent;
+    border-right: 25px solid white;
     rotate: 10deg;
   }
 }
