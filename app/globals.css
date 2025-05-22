@@ -33,9 +33,9 @@
   .arrow-top {
     @apply absolute z-10;
     left: 20%;
-    top: -150px;
-    border-top: 40px solid transparent;
-    border-right: 25px solid white;
+    top: -165px;
+    border-top: 45px solid transparent;
+    border-right: 15px solid white;
     rotate: 10deg;
   }
 }
